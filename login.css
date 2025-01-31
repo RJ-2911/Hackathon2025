@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.login-container, .dashboard-container {
+    margin-top: 100px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+}
+
+.login-container h1 {
+    
+    font-size: 48px;
+    margin: 50px;
+}
+
+
+#loginBtn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+#signupBtn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+#error-msg {
+    margin-top: 20px;
+    color: red;
+}   
+
+#signup-msg {
+    margin-top: 20PX;
+}
+
+#password, #username {
+    width: 350px;
+}
