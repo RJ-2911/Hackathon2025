@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-size: 2rem;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.log-search{
+    display: flex;
+    background-color: rgb(29, 1, 1);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+
+header {
+    background-color: #12a8e4;
+    color: white;
+    padding: 0.25rem;
+    text-align: center;
+    font-size: medium;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    opacity: 0.;
+    transition: background 0.2s;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .content h3{
+    position: absolute;
+    justify-content: center;
+    margin: 0;
+    color: azure;
+    margin-top: 0.8rem;
+}
+
+.hero .overlay h1 {
+    font-size: 4rem;
+    margin: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.hero .overlay p {
+    font-size: 1.5rem;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+    padding: 0;
+    margin: 1rem;
+}
+
+.feature {
+    background: rgb(167, 214, 243);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 30%;
+}
+
+.feature img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.feature h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.feature p {
+    color: #555;
+}
+
+footer {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
